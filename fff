@@ -1,0 +1,9 @@
+wpa_supplicant.conf
+network={
+	ssid="Brown"
+	key_mgmt=WPA-EAP
+	eap=PEAP
+	identity="omckissi"
+	password="HUmphrex0!"
+	phase2="auth=MSCHAPV2"
+}
